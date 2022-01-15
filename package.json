@@ -1,0 +1,33 @@
+{
+  "name": "tech_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alntruong/Tech_Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alntruong/Tech_Blog/issues"
+  },
+  "homepage": "https://github.com/alntruong/Tech_Blog#readme",
+  "dependencies": {
+    "dotenv": "^12.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local-sequelize": "^0.9.0",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {}
+}
